@@ -54,6 +54,7 @@ console.log({b});
 a+=5; // same as a = a + 5;
 console.log({a});
 
+// ==============Coersion is changing a value from one data type to another======================
 
 // =====Implicit Coercion ==============
 
@@ -65,6 +66,13 @@ console.log({e});
 
 
 // =====Explicit Coercion ==============
+
+let x = '22';
+let w = 22;
+x = (Number(x))
+
+let num = x + 22;
+console.log({num});
 
 let f = Number(c);
 console.log({f});
